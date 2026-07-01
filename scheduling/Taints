@@ -1,0 +1,18 @@
+# Self notes
+
+## Taints and tolerations
+- General proccess: Set a "Taint" on nodes, then set "Tolerations" to those "Taints" on the pods.  
+
+### Problem:
+- In a cluster of 5 nodes, if 3 are tainted, and 2 others are general purpose.
+- There is a chance that a pod, marked with a toleration, will be scheduled to a general purpose node.
+
+## Node Affinity
+- In the node def, you define a set of labels. In the pod def, you degine the set of nodes, that it is allowed to be scheduled to.
+
+### Problem:
+- In same 5 node cluster scenario. There is a chance that a general purpse node, gets scheduled on a "node affinity" node.
+
+## Resolution to both problems:
+- Using a combination of both, T&T with NA. 
+- Idea, set a group of nodes under a speficic label and taint. Then, your group of speficfied pods set under a spefic toleration and affinity. 
