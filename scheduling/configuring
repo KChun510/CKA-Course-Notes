@@ -1,0 +1,7 @@
+# The scheduling stages
+1) Sched Que.
+2) Filtering
+3) Scoring
+4) Binding
+
+- Each stage is a `Plugin`
