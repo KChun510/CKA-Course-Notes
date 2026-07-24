@@ -1,37 +1,21 @@
-# CKA Course Notes
+# CKA Study Notes
 
-This repository is a work-in-progress collection of my notes while studying for the Certified Kubernetes Administrator (CKA) exam.
+This repo is where I keep my notes while working through KodeKloud's Certified Kubernetes Administrator (CKA) course.
 
-The goal is to keep my Kubernetes learning organized in one place as I move through course lessons, hands-on labs, command practice, and core cluster administration concepts.
+I use it to track what I've covered, save useful commands and examples, and write down concepts in a way that makes sense to me. These are personal study notes, so some files are more detailed than others and will probably change as I go.
 
-## Current Focus
+## Topics covered
 
-I am currently building out notes around the fundamentals of Kubernetes, including:
+- [Core concepts](./Core_Concepts) — cluster architecture, container runtimes, etcd, control plane components, Pods, ReplicaSets, Deployments, Services, and namespaces
+- [Scheduling](./scheduling) — manual scheduling, taints and tolerations, resource requests, DaemonSets, static Pods, multiple schedulers, priority classes, and admission controllers
+- [Monitoring and logging](./monitoring_logging) — monitoring cluster components and managing application logs
+- [Application lifecycle management](./application_lifecycle_mngmnt) — commands and arguments, environment variables, ConfigMaps, Secrets, rollouts, autoscaling, and Pod resizing
+- [Cluster maintenance](./cluster_maintenance) — Kubernetes releases, cluster and OS upgrades, and backup and restore methods
 
-* Cluster architecture
-* Docker, containerd, and container runtimes
-* etcd and Kubernetes state
-* Core control plane components
-* Basic `kubectl` usage
+## What's in here
 
-## Planned Topics
-
-As I continue through the course, this repository will expand to include notes and examples on:
-
-* Pods, Deployments, and Services
-* Scheduling and node management
-* ConfigMaps and Secrets
-* Storage and volumes
-* Kubernetes networking
-* RBAC and security
-* Troubleshooting workflows
-* CKA-style practice tasks
+Mostly Markdown notes, `kubectl` commands, YAML examples, and takeaways from the course and labs. A few files are just quick reminders for things I want to come back to later.
 
 ## Goal
 
-The purpose of this repository is to track my progress, reinforce Kubernetes concepts, and build practical administration skills as I prepare for the CKA certification.
-
-## Notes
-
-These notes are primarily for personal learning and will continue to change as I study, practice, and refine my understanding.
-
+The goal is to pass the CKA and build enough practical experience to manage and troubleshoot Kubernetes clusters confidently.
