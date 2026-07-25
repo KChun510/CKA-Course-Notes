@@ -6,11 +6,13 @@ I use it to track what I've covered, save useful commands and examples, and writ
 
 ## Topics covered
 
-- [Core concepts](./Core_Concepts) — cluster architecture, container runtimes, etcd, control plane components, Pods, ReplicaSets, Deployments, Services, and namespaces
-- [Scheduling](./scheduling) — manual scheduling, taints and tolerations, resource requests, DaemonSets, static Pods, multiple schedulers, priority classes, and admission controllers
+- [Core concepts](./Core_Concepts) — cluster architecture, container runtimes, etcd, control plane components, Pods, ReplicaSets, Deployments, Services, namespaces, and imperative versus declarative management
+- [Scheduling](./scheduling) — manual scheduling, taints and tolerations, resource requests, DaemonSets, static Pods, multiple schedulers, scheduler profiles, priority classes, and admission controllers
 - [Monitoring and logging](./monitoring_logging) — monitoring cluster components and managing application logs
-- [Application lifecycle management](./application_lifecycle_mngmnt) — commands and arguments, environment variables, ConfigMaps, Secrets, rollouts, autoscaling, and Pod resizing
-- [Cluster maintenance](./cluster_maintenance) — Kubernetes releases, cluster and OS upgrades, and backup and restore methods
+- [Application lifecycle management](./application_lifecycle_mngmnt) — commands and arguments, environment variables, ConfigMaps, Secrets and encryption at rest, rolling updates and rollbacks, horizontal and vertical autoscaling, and in-place Pod resizing
+- [Cluster maintenance](./cluster_maintenance) — Kubernetes releases, cluster upgrades, operating system upgrades, and backup and restore methods
+- [Security](./security) — security primitives, authentication, TLS in Kubernetes, certificate creation, and viewing certificate details
+- [kubectl practice](./kubectl_prac) — hands-on command-line practice with `kubectl`
 
 ## What's in here
 
